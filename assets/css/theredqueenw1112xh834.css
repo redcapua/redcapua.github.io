@@ -1,0 +1,15 @@
+.contentzone {
+    width: 80%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.emptyrows {
+    display: none;
+}
+
+.map {
+    height: 400px;
+    width: 600px;
+    position: relative;
+}
