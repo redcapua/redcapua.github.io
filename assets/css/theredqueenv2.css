@@ -215,7 +215,7 @@ a:hover {
 .navigationitemactive {
     display: inline-block;
     opacity: 1;
-    font-size: 24px;
+    font-size: 20px;
     position: static;
 }
 
@@ -286,4 +286,72 @@ a:hover {
     margin-bottom: 15px;
     letter-spacing: 1px;
     margin-top: 0;
+}
+
+.navigationsubitem {
+    display: flex;
+    /* background-color: darkgray; */
+    font-size: 14px;
+    padding-right: 15px;
+    margin-bottom: 15px;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: end;
+    position: relative;
+    -webkit-animation: fadeIn 3s;
+    animation: fadeIn 3s;
+}
+
+.subnavigationlabel {
+    color: #e71e17;
+    opacity: 0.5;
+}
+
+.subnavigationlabel:active {
+    color: #e71e17;
+    opacity: 1;
+    text-decoration: none;
+}
+
+.subnavigationlabel:hover {
+    color: #e71e17;
+    opacity: 1;
+    text-decoration: none;
+    font-size: 14px;
+    -webkit-animation: fadeIn051f14 1s;
+    animation: fadeIn051f14 1s;
+}
+
+.navigationsubitemactive {
+    display: inline-block;
+    opacity: 1;
+    font-size: 14px;
+    position: static;
+}
+
+@-webkit-keyframes fadeIn051f14 {
+    from {
+        opacity: 0.5;
+        font-size: 14px;
+    }
+    to {
+        opacity: 1;
+        font-size: 16px;
+    }
+}
+
+@keyframes fadeIn051f14 {
+    from {
+        opacity: 0.5;
+        font-size: 14px;
+    }
+    to {
+        opacity: 1;
+        font-size: 16px;
+    }
+}
+
+.subnavigationsubitemactive {
+    display: none;
 }
